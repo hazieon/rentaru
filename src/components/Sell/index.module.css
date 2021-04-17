@@ -59,3 +59,11 @@ select{
 select:hover{
     background-color:  rgb(209, 255, 229);
 }
+
+.line{
+    border-bottom: 1.5px solid rgb(17, 158, 12);
+    max-width: 25vw;
+    margin-left: 4px;
+    margin-top: 0;
+    opacity: 70%;
+}

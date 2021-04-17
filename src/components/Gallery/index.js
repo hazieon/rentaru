@@ -44,6 +44,7 @@ export default function TitlebarGridList({tileData, cols}) {
             <Link className={styles.link} 
              to="/checkout">
             <GridListTileBar
+              onClick={()=>console.log(tile.title)}
               className={styles.gridTile}
               title={tile.title}
               subtitle={<><span>By {tile.author}</span><p> </p><span>{tile.distance} away</span></>}

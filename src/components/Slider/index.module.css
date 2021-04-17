@@ -38,7 +38,8 @@
   }
   
   .title {
-    font-size: calc(6px + 3vmin);
+      padding:0px;
+    font-size: calc(3px + 2vmin);
     user-select: none;
   }
   

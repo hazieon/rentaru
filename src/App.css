@@ -1,11 +1,15 @@
 body {
   text-align: center;
 }
+
 .nav-bar {
   overflow: hidden;
   background-color: rgb(209, 255, 229);
-  position: sticky;
+  position: static;
   align-items: center;
+  z-index: 4;
+  width: 100%;
+  top: 0;
 }
 
 /* Navbar links */
@@ -14,20 +18,17 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-   text-decoration: none;
+  text-decoration: none;
 }
+
 .pages {
   float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+  padding: 17px;
   text-decoration: none;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
+  margin-right: 1rem;
 }
 
 
@@ -38,7 +39,6 @@ body {
 .logo-box{
   position: relative;
 }
-
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -58,7 +58,40 @@ body {
 
 
 .footer{
+  position: static;
   margin-top: 4rem;
-  padding: 30px 10px;
+  width: 100%;
+  padding: 8px 10px;
   background-color: rgb(209, 255, 229);
+  bottom: 0px;
+}
+.footer h6{
+ position: absolute;
+ right: 10px;
+bottom: -60px;
+}
+
+#rentee{
+  background-color: white;
+  box-shadow: -5px 5px 0px 0px rgb(45, 99, 54);
+  transition: 0.2s ease-in;
+  touch-action: manipulation;
+  padding: 14px 20px 13px;
+  border-radius: 8px;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+  border:none;
+  cursor: pointer;
+}
+
+#rentee:hover{
+  box-shadow: 0px 5px 0px 0px rgb(45, 99, 54);
+}
+
+#rentee:active{
+  box-shadow: none;
+}
+
+#cart{
+font-size: x-large;
 }

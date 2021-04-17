@@ -1,0 +1,7 @@
+.QR{
+    min-height: 10vh;
+    max-height: 60vh;
+    width: auto;
+    user-select: none;
+    cursor: grab;
+}

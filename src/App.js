@@ -10,6 +10,8 @@ import Homepage from "./components/Home"
 import Sell from "./components/Sell"
 import Checkout from "./components/Checkout"
 import logo from "./images/earth.png"
+import List from "./components/List"
+import Thankyou from "./components/Thankyou"
 
 export default function App() {
   return (
@@ -24,11 +26,14 @@ export default function App() {
                <img className="logo" src={logo} alt="logo"/>
               </div></Link>
             </li>
-            <li className="pages">
-              <Link to="/checkout">Checkout</Link>
+            <li className="pages" id="cart">
+              <Link to="/checkout">🛒</Link>
             </li>
-            <li className="pages">
-              <Link to="/sell">Rent out!</Link>
+            <li className="pages" id="rentee">
+              <Link to="/sell">Rentables</Link>
+            </li>
+            <li className="pages" id="rentee">
+              <Link to="/list">Rent Out</Link>
             </li>
           </ul>
         </nav>
@@ -41,13 +46,19 @@ export default function App() {
           <Route path="/checkout">
             <Checkout />
           </Route>
+          <Route path="/list">
+            <List />
+          </Route>
+          <Route path="/thankyou">
+            <Thankyou />
+          </Route>
           <Route path="/">
             <Homepage />
           </Route>
         </Switch>
       </div>
     </Router>
-<footer className="footer"></footer>
+<footer className="footer"> </footer>
     </>
   );
 }

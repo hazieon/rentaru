@@ -1,0 +1,14 @@
+.paymentContainer{
+    margin-left: 2rem;
+
+    max-width: 40vw;
+    border: 2px solid green;
+    box-shadow: -5px 5px 0px 0px rgb(117, 172, 126);
+    padding: 13px 13px;
+    border-radius: 8px;
+}
+
+.paymentContainer:hover{
+    box-shadow: 0px 3px 1px 1px rgb(117, 172, 126)
+}
+
