@@ -4,22 +4,20 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
-// import InfoIcon from '@material-ui/icons/Info';
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
-    overflow: 'hidden',
+    overflow: "visible",
     backgroundColor: theme.palette.background.paper,
   },
   gridList: {
-    width: 500,
-    height: 450,
+    width: "60vw",
+    height: 'auto',
+    maxHeight: 500,
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
@@ -32,9 +30,9 @@ export default function TitlebarGridList({tileData}) {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-           <h2>Rent Locally</h2>
+      <GridList cellHeight={180}  cols={4} className={classes.gridList}>
+        <GridListTile key="Subheader" style={{ height: 'auto', width: "60vw" }}>
+           <h2 className={styles.heading}>Rent Locally</h2>
         </GridListTile>
         {tileData.map((tile) => (
           <GridListTile key={tile.img}>
@@ -45,7 +43,7 @@ export default function TitlebarGridList({tileData}) {
               
               actionIcon={
                 <IconButton aria-label={`info about ${tile.title}`} className={styles.icon}>
-            view
+                     view
                 </IconButton>
               }
             />

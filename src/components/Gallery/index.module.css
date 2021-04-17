@@ -1,14 +1,16 @@
 .icon{    
     border: 2px solid white;
-    box-shadow: -3px 3px 0px 0px rgb(255, 255, 255);
+    box-shadow: 0px 3px 0px 0px rgb(255, 255, 255);
     transition: 0.2s ease-in;
     touch-action: manipulation;
     user-select: none;
-    color: whitesmoke;
+    color: whitesmoke !important;
+    
 }
 
 .icon:hover{
-    box-shadow: 0px 3px 0px 0px rgb(255, 255, 255);
+    box-shadow: 0px 1px 0px 0px rgb(255, 255, 255);
+    color: whitesmoke;
 }
 
 .icon:active{
@@ -16,3 +18,12 @@
     transition: 0s;
 }
 
+
+.heading{
+    margin: auto;
+}
+
+.gridList{
+    display: flex;
+    flex-direction: row;
+}

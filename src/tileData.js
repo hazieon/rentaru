@@ -23,8 +23,15 @@
      author: 'Nyasha',
      distance: '8 miles',
 },
+{
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEDblYKUgy1GfjU86qKq_pd5hJelzhw9FIw&usqp=CAU",
+ title: 'Blender',
+ author: 'Janet',
+ distance: '1 miles',
+},
+
  ];
 
-
+ 
   export { tileData };
   
