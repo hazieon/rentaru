@@ -1,11 +1,19 @@
-import "./index.module.css"
+import styles from "./index.module.css"
 
-function Home() {
+function Homepage() {
   return (
-    <div className="Home">
-      <h2>Home</h2>
+    <div className="Homepage">
+   <div class={styles.heroImage}>
+    <div class={styles.heroText}>
+    <h1>Extraordinary people</h1>
+    <p>doing extra ordinary things.</p>
+    <button>Start Renting</button>
+  </div>
+</div> 
     </div>
   );
 }
 
-export default Home;
+export default Homepage;
+
+
