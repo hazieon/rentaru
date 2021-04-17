@@ -39,16 +39,11 @@ export default function TitlebarGridList({tileData}) {
             <img src={tile.img} alt={tile.title} />
             <GridListTileBar
               title={tile.title}
-              subtitle={<span>By: {tile.author}</span>}
-              
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={styles.icon}>
-                     view
-                </IconButton>
-              }
-            />
+              subtitle={<><span>By {tile.author}</span><p> </p><span>{tile.distance} away</span></>}
+          />
 
           </GridListTile>
+         
         ))}
       </GridList>
     </div>

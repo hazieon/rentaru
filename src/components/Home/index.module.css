@@ -1,13 +1,13 @@
 
 .heroImage {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./rent.jpg");
-  
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./rent.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos11.jpg"); 
     /* Set a specific height */
-    height: 50vh;
+    height: 75vh;
   
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -18,7 +18,7 @@
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
   } 
@@ -46,4 +46,22 @@ button{
     transition: 0s;
 }
 
+.explainBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.explainImage{
+  margin: 1rem;
+  max-height: 30vh;
+  max-width: 25vw;
+padding: 0px 10px;
+  display: inline;
+}
+
+.explainTitle{
+  text-align: left;
+  margin-left: 8%;
+  margin-top: 6rem;
+}

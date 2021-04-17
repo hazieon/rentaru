@@ -10,8 +10,8 @@
 
 
 .image{
-    height: 35vh;
-    
+    height: 40vh;
+    min-width: auto;
 }
 
 .textBox{
