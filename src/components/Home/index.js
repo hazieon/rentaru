@@ -14,8 +14,8 @@ function Homepage() {
     <div className="Homepage">
         <div class={styles.heroImage}>
             <div class={styles.heroText}>
-             <h1>Extraordinary people</h1>
-            <h2>renting extraordinary things.</h2>
+             <h1>Extra-ordinary people</h1>
+            <h2>renting ordinary things.</h2>
              <button class={styles.heroButton}>  
              <Link className={styles.link} 
              to="/checkout">Explore Nearby</Link>
@@ -23,7 +23,7 @@ function Homepage() {
              </div>
         </div> 
     
-    <ImageWithText 
+    <ImageWithText
     image={image10} 
     alt={"ecycle community member"}
     text={"We are a renting marketplace for everyday people. Neighbours in your local community come here to rent out and borrow items to save money and purchase less. Each time you borrow an item, you are helping the planet by consuming less."}
