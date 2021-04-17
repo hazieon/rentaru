@@ -1,0 +1,18 @@
+.icon{    
+    border: 2px solid white;
+    box-shadow: -3px 3px 0px 0px rgb(255, 255, 255);
+    transition: 0.2s ease-in;
+    touch-action: manipulation;
+    user-select: none;
+    color: whitesmoke;
+}
+
+.icon:hover{
+    box-shadow: 0px 3px 0px 0px rgb(255, 255, 255);
+}
+
+.icon:active{
+    box-shadow:none;
+    transition: 0s;
+}
+
