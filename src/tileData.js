@@ -1,19 +1,26 @@
-
- const tileData = [
+import image2 from "./images/photos (2).jpg"
+import image4 from "./images/photos (4).jpg"
+import image6 from "./images/photos (6).jpg"
+import image7 from "./images/photos (7).jpg"
+import image8 from "./images/photos (8).jpg"
+import image13 from "./images/photos (13).jpg"
+import image15 from "./images/photos (15).jpg"
+ 
+const tileData = [
   {
-    img: "https://preview.redd.it/4rehjdi1yli31.jpg?width=960&crop=smart&auto=webp&s=07532a2a40624db9df6d60e6a4e571d7a3d0435f",
+    img: image13,
     title: 'Waffle Iron',
     author: 'ludiwaffle',
     distance: '3 miles',
   },
    {
-       img: "https://static.erowz.com/04/pimg/1/18/ti/UK_0_Rubi_TS43_Max_Tile_Cutter_Including_Case_Mjc0NzQ3NTIwMTEx_medium.jpg",
-       title: 'Tile Cutter',
+       img: image7,
+       title: 'Red Drill',
        author: 'Rosa',
        distance: '4 miles',
   },
- {     img: "https://www.sitandsleep.co.uk/Files/123050/Img/08/classic_base_support1-main.jpg",
-       title: 'Futon Base',
+ {     img: image6,
+       title: 'Robot Vacuum',
        author: 'Marina',
        distance: '2 miles',
 },
@@ -24,16 +31,29 @@
     distance: '8 miles',
 },
 {
- img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEDblYKUgy1GfjU86qKq_pd5hJelzhw9FIw&usqp=CAU",
+ img: image15,
 title: 'Blender',
 author: 'Janet',
 distance: '1 miles',
 },
-{ img: "https://images-na.ssl-images-amazon.com/images/I/81im8ZLf2lL._SL1500_.jpg",
+
+{ img: image4,
 title: "Iron",
 author: "Lloyd",
 distance:"4 miles"
-}
+},
+
+{ img: image8,
+  title: "Typewriter",
+  author: "Hazie",
+  distance:"7 miles"
+},
+
+{ img: image2,
+  title: "Garden Tools",
+  author: "Greta",
+  distance:"3.5 miles"
+},
 
 ];
 

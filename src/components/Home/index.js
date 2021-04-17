@@ -2,7 +2,8 @@ import styles from "./index.module.css"
 import ImageWithText from "../ImageWithText"
 import Gallery from "../Gallery"
 import {tileData} from "../../tileData"
-
+import image3 from "../../images/photos (3).jpg"
+import image10 from "../../images/photos (10).jpg"
 function Homepage() {
   return (
     <div className="Homepage">
@@ -15,7 +16,7 @@ function Homepage() {
         </div> 
     
     <ImageWithText 
-    image={"/images/photos (10).jpg"} 
+    image={image10} 
     alt={"ecycle community member"}
     text={"We are a renting marketplace for everyday people. Neighbours in your local community come here to rent out and borrow items to save money and purchase less. Each time you borrow an item, you are helping the planet by consuming less."}
     buttonText={"About Us"}
@@ -30,11 +31,11 @@ function Homepage() {
    <h4>1. Find and reserve useful items near you!</h4>
    </div>
    <div>
-   <img className={styles.explainImage}  id={styles.explainImageTwo} src="https://c7.alamy.com/comp/KGN5WJ/blond-woman-with-hat-gardening-KGN5WJ.jpg"></img>
+   <img className={styles.explainImage}  id={styles.explainImageTwo} src="https://c7.alamy.com/comp/KGN5WJ/blond-woman-with-hat-gardening-KGN5WJ.jpg" alt="gardening woman"></img>
    <h4>2. Rent useful items from your neighbours!</h4>
    </div>
    <div>
-   <img  className={styles.explainImage} id={styles.explainImageThree} src="https://c7.alamy.com/comp/2BBXPPC/human-hands-holding-the-planet-earth-elements-of-this-image-are-furnished-by-nasa-2BBXPPC.jpg"></img>
+   <img  className={styles.explainImage} id={styles.explainImageThree} src={image3} alt="gardening man"></img>
    <h4>3. Contribute to preventing unnecessary waste.</h4>
    </div>
     </div>
