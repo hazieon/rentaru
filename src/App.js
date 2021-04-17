@@ -7,6 +7,9 @@ import {
   Link
 } from "react-router-dom";
 import Homepage from "./components/Home"
+import Sell from "./components/Sell"
+import Checkout from "./components/Checkout"
+import logo from "./images/earth.png"
 
 export default function App() {
   return (
@@ -18,7 +21,7 @@ export default function App() {
             <li className="home-link">
              <Link to="/"> 
               <div className="logo-box">
-               <img className="logo" src={"/images/earth.png"} alt="logo"/>
+               <img className="logo" src={logo} alt="logo"/>
               </div></Link>
             </li>
             <li className="pages">
@@ -49,11 +52,3 @@ export default function App() {
   );
 }
 
-
-function Sell() {
-  return <h2>Sell</h2>;
-}
-
-function Checkout() {
-  return <h2>Checkout</h2>;
-}

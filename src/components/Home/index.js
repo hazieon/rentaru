@@ -4,6 +4,11 @@ import Gallery from "../Gallery"
 import {tileData} from "../../tileData"
 import image3 from "../../images/photos (3).jpg"
 import image10 from "../../images/photos (10).jpg"
+import {
+  Link
+} from "react-router-dom";
+
+
 function Homepage() {
   return (
     <div className="Homepage">
@@ -11,7 +16,10 @@ function Homepage() {
             <div class={styles.heroText}>
              <h1>Extraordinary people</h1>
             <h2>renting extraordinary things.</h2>
-             <button class={styles.heroButton}>Explore nearby</button>
+             <button class={styles.heroButton}>  
+             <Link className={styles.link} 
+             to="/checkout">Explore Nearby</Link>
+            </button>
              </div>
         </div> 
     
@@ -22,7 +30,7 @@ function Homepage() {
     buttonText={"About Us"}
     />
 
-    <Gallery tileData={tileData}/>
+    <Gallery tileData={tileData} cols={4}/>
    
    <h2 className={styles.explainTitle}>How it works</h2>
    <div className={styles.explainBox}>

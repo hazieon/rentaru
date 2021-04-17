@@ -5,7 +5,7 @@
     touch-action: manipulation;
     user-select: none;
     color: whitesmoke !important;
-    
+
 }
 
 .icon:hover{
@@ -23,7 +23,6 @@
     text-align: left;
 }
 
-.gridList{
-    display: flex;
-    flex-direction: row;
+.gridTile{
+    cursor: pointer;
 }
