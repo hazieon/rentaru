@@ -47,7 +47,7 @@ export default function App() {
         </Switch>
       </div>
     </Router>
-
+<footer className="footer"></footer>
     </>
   );
 }

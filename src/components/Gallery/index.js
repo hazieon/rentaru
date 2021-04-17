@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     width: "70vw",
     height: 'auto',
     maxHeight: 500,
+    overflow: "auto"
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
@@ -32,9 +33,10 @@ export default function TitlebarGridList({tileData, cols}) {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={180} cols={cols} className={classes.gridList}>
-        <GridListTile key="Subheader" style={{ height: 'auto', width: "60vw" }}>
-           <h2 className={styles.heading}>Rent Locally</h2>
+      <GridList cellHeight={180} cols={cols}  className={classes.gridList}>
+        <GridListTile key="Subheader" style={{ height: 'auto', width: "60vw"}}>
+        <div className={styles.headingBox}>
+           <h2 className={styles.heading}>Rent Locally</h2></div>
         </GridListTile>
         {tileData.map((tile) => (
           <GridListTile key={tile.img}>

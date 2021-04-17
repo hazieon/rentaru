@@ -1,0 +1,44 @@
+.range:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    margin: auto;
+    border-left: 67px solid transparent;
+    border-right: 67px solid transparent;
+    border-top: 6px solid #d2d2d2;
+  }
+  
+  .range-value {
+    width: 74px;
+    padding: 8px 0;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.1s;
+  }
+  
+  .range-divider {
+    width: 1px;
+    display: inline-block;
+  }
+  .range:after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #d2d2d2;
+    content: "";
+  }
+  
+  .check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: calc(6px + 3vmin);
+    user-select: none;
+  }
+  

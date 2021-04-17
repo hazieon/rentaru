@@ -1,5 +1,5 @@
 .galleryBox{
-    margin-left: 25vw;
+    margin-left: 23vw;
 }
 
 .categoryList{
@@ -8,13 +8,14 @@
 }
 
 .categoryListItem{
-padding: 8px 10px;
+padding: 8px 6px;
 font-weight: bolder;
 list-style: none;
 cursor: pointer;
 user-select: none;
 transition: 0.2s ease;
 }
+
 .categoryListItem:hover{
     background-color:  rgb(209, 255, 229);
 }
@@ -27,19 +28,34 @@ transition: 0.2s ease;
     text-align: left;
     padding-left: 5px;
     user-select: none;
+    margin-top: 3rem;
+    margin-left: 1rem;
 }
 
 .filterTitle{
     text-align: left;
     position: relative;
-    top: 60vh;
-    padding-left: 5px;
     user-select: none;
-    
 }
 
 .filterSection{
     text-align: left;
     position: relative;
-    top: 60vh;
+    padding-left: 10px;
+}
+
+select{
+    text-align: left;
+    position: relative;
+    /* top: 30vh; */
+    left: 0;
+    padding: 5px 0px;
+    padding-left: 10px;
+    user-select: none;
+    border-radius: 7px;
+    max-width: 15vw;
+}
+
+select:hover{
+    background-color:  rgb(209, 255, 229);
 }

@@ -27,21 +27,53 @@ function Sell() {
       )
     })}
     </ul>
+    <div className={styles.galleryBox}>
+      <Gallery tileData={tileData} cols={5}/>
+      </div>
 
 
-    <div>
+    <div className={styles.filterSection}>
     <h3 className={styles.filterTitle}>Filter:</h3>
-    <select>Condition</select>
+    <select>Condition
+    <option value="Condition" disabled>Condition</option>
+    <option value="New">Any</option>
+    <option value="New">New</option>
+    <option value="Like New">Like new</option>
+    <option value="Good">Good</option>
+    <option value="Does the job">Does the job</option>
+    <option value="Average">Just about</option>
+    </select>
+<p> </p>
+    <select>Price
+    <option value="Price" disabled>Price per day</option>
+    <option value="Price">Any</option>
+    <option value="Price">£15 or more</option>
+    <option value="Price">£10 or less</option>
+    <option value="Price">£5 or less</option>
+    <option value="Price">£3 or less</option>
+    </select>
+   <p></p>
+
+   <select>Distance
+    <option value="Distance" disabled>Distance per day</option>
+    <option value="Distance">Any</option>
+    <option value="Distance">Within 50km</option>
+    <option value="Distance">Within 25km</option>
+    <option value="Distance">Within 15km</option>
+    <option value="Distance">Within 5km</option>
+    </select>
+   
+
+
+
+
+
     </div>
 
 
 
 
-
-
-      <div className={styles.galleryBox}>
-      <Gallery tileData={tileData} cols={6}/>
-      </div>
+     
     </div>
   );
 }

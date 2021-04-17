@@ -5,7 +5,6 @@
     touch-action: manipulation;
     user-select: none;
     color: whitesmoke !important;
-
 }
 
 .icon:hover{
@@ -14,13 +13,17 @@
 }
 
 .icon:active{
-    box-shadow:none;
+    box-shadow: none;
     transition: 0s;
 }
 
+.headingBox{
+    position: relative;
+}
 
 .heading{
-    text-align: left;
+ text-align: left;
+
 }
 
 .gridTile{
