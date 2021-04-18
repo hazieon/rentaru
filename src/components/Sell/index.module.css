@@ -1,5 +1,6 @@
 .galleryBox{
-    margin-left: 23vw;
+    margin-left: 25vw;
+    margin-top: 0;
 }
 
 .categoryList{
@@ -28,7 +29,7 @@ transition: 0.2s ease;
     text-align: left;
     padding-left: 5px;
     user-select: none;
-    margin-top: 3rem;
+    margin-top: 2.8rem;
     margin-left: 1rem;
 }
 
@@ -40,9 +41,16 @@ transition: 0.2s ease;
 
 .filterSection{
     text-align: left;
-    position: static;
     padding-left: 10px;
+   
 }
+
+.filterSectionBox{
+    position: absolute;
+    text-align: left;
+     top: 578px;
+   }
+
 
 select{
     text-align: left;
@@ -66,3 +74,47 @@ select:hover{
     margin-top: 0;
     opacity: 70%;
 }
+
+.search {
+    position: absolute;
+    top: 20vh;
+    left: 60%;
+    transform: translate(-50%);
+    width: 50vw;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBar {
+    border-radius:7px;
+    font-size: medium;
+    text-align: left;
+    width: 40vw;
+    height: 5vh;
+  }
+  
+    .searchButton{
+        margin-left: 1rem;
+        box-shadow: -4px 4px 0px 0px var(--mid-shade);;
+        transition: 0.2s ease-in;
+        touch-action: manipulation;
+        padding: 7px 10px 7px;
+      }
+    
+    button{
+        border-radius: 2px;
+        user-select: none;
+        font-family: "Montserrat", sans-serif;
+        border:none;
+        cursor: pointer;
+    }
+    
+    .searchButton:hover{
+        box-shadow: 0px 2px 1px 1px var(--mid-shade);;
+    }
+    
+    .searchButton:active{
+        box-shadow: 0px 0px 1px 1px whitesmoke;
+        transition: 0s;
+    }

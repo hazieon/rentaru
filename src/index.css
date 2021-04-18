@@ -5,9 +5,9 @@
   --secondary-shade: rgba(227, 203, 255, 0.972);
   --panel-shade: #e2c3ff;
   --panel-mid-shade: #e6d6ff;
-  --deep-shade: #0D6424;
-  --mid-shade: #34A853;
-  --light-shade: #E0ECBF;
+  --deep-shade: #18612b;
+  --mid-shade: #4aac64;
+  --light-shade: #d8ecbf;
 }
 
 
@@ -26,16 +26,16 @@
 
 body {
   margin: 0;
-  background-color: rgba(209, 251, 155, 0.514);
+  /* background-color: rgba(209, 251, 155, 0.514);
   background-image: radial-gradient( circle farthest-corner at 10% 20%,   rgba(209, 251, 155, 0.096) 0% , rgba(50, 172, 109, 0.103) 100.9%);
-  background-attachment: fixed;
+  background-attachment: fixed; */
  
   /*
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   */
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Work Sans', 'Merriweather Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

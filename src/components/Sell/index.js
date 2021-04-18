@@ -1,3 +1,5 @@
+
+import React, {useState} from "react";
 import styles from "./index.module.css"
 import Gallery from "../Gallery"
 import {tileDataFull} from "../../tileDataFull"
@@ -17,6 +19,13 @@ const categories = [
 ]
 
 function Sell({changeRentable}) { 
+  const [text, setText] = useState("");
+
+     
+function handleInput(e) {
+  setText(String(e.target.value));
+}
+
   return (
     <div className="sell">
         <h3 className={styles.categoryTitle}>Explore by category:</h3>
@@ -28,10 +37,18 @@ function Sell({changeRentable}) {
       )
     })}
     </ul>
-    <div className={styles.galleryBox}>
-      <Gallery tileData={tileDataFull} changeRentable={changeRentable} cols={5}/>
-      </div>
 
+    <div className={styles.search}>
+      <input
+        className={styles.searchBar}
+        placeholder="Search for an item..."
+        type="text"
+        onInput={(e) => handleInput(e)}
+      ></input>
+      <button className={styles.searchButton}>go</button>
+    </div>
+
+    <div className={styles.filterSectionBox}>
     <div className={styles.filterSection}>
     <h3 className={styles.filterTitle}>Filter:</h3>
     <div className={styles.line}></div>
@@ -49,6 +66,13 @@ function Sell({changeRentable}) {
 
 <Sliders title={"Distance"} min={5} max={50} initial={10} step={5}/>
   </div>
+
+    </div>
+
+    <div className={styles.galleryBox}>
+      <Gallery tileData={tileDataFull} changeRentable={changeRentable} cols={5}/>
+      </div>
+
 
     </div>
   );

@@ -22,7 +22,7 @@ function Homepage({changeRentable}) {
               </button>
             </div>
         </div> 
-    
+    <div className={styles.imageWithTextBox}>
     <ImageWithText
     image={image10} 
     alt={"ecycle community member"}
@@ -30,7 +30,8 @@ function Homepage({changeRentable}) {
     text={"We are a renting marketplace for everyday people. Neighbours in your local community come here to rent out and borrow items to save money and purchase less. Each time you borrow an item, you are helping the planet by consuming less."}
     buttonText={"More info"}
     />
-
+    </div>
+ 
     <Gallery tileData={tileData} changeRentable={changeRentable} cols={4}/>
    
    <h2 className={styles.explainTitle}>How it works</h2>

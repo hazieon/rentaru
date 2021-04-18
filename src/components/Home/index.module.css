@@ -1,3 +1,5 @@
+ 
+
 
 .heroImage {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -23,7 +25,7 @@
     color: white;
   } 
 
-  .heroButton{
+.heroButton{
     box-shadow: -5px 5px 0px 0px var(--mid-shade);;
     transition: 0.2s ease-in;
     touch-action: manipulation;
@@ -72,3 +74,7 @@ padding: 0px 10px;
   text-decoration: none;
   color: black;
 }
+
+
+.imageWithTextBox{
+margin-bottom: 5rem;}
