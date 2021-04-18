@@ -15,7 +15,7 @@
 
 .submit{
     margin-top: 4rem;
-    box-shadow: -5px 5px 0px 0px rgb(117, 172, 126);
+    box-shadow: -5px 5px 0px 0px var(--mid-shade);;
     transition: 0.2s ease-in;
     touch-action: manipulation;
     padding: 14px 20px 13px;
@@ -30,7 +30,7 @@ button{
 }
 
 .submit:hover{
-    box-shadow: 0px 3px 1px 1px rgb(117, 172, 126);
+    box-shadow: 0px 3px 1px 1px var(--mid-shade);;
 }
 
 .submit:active{
@@ -44,17 +44,17 @@ button{
 }
 
 #discount{
-    color: rgb(212, 107, 107);
+    color: rgb(221, 119, 119);
     font-weight: bolder;
 }
 
 .spanText{
-    color: green;
+    color: var(--deep-shade);
     font-weight: bolder;
     padding-left: 10px;
 }
 
 .link{
     text-decoration: none;
-    color: black;
+    color: rgb(14, 13, 13);
   }

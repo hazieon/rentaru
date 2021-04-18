@@ -1,4 +1,17 @@
 
+
+:root {
+  --background-shade: #bca0ff;
+  --secondary-shade: rgba(227, 203, 255, 0.972);
+  --panel-shade: #e2c3ff;
+  --panel-mid-shade: #e6d6ff;
+  --deep-shade: #0D6424;
+  --mid-shade: #34A853;
+  --light-shade: #E0ECBF;
+}
+
+
+
 @media screen and (min-width: 320px) {
   html {
     font-size: calc(12px + 6 * ((100vw - 320px) / 680));

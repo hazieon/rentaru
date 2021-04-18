@@ -21,7 +21,7 @@ transition: 0.2s ease;
 }
 
 .categoryListItem:active{
-    background-color:  rgb(162, 230, 191);
+    background-color:  var(--light-shade);
 }
 
 .categoryTitle{ 
@@ -60,7 +60,7 @@ select:hover{
 }
 
 .line{
-    border-bottom: 1.5px solid rgb(17, 158, 12);
+    border-bottom: 1.5px solid var(--deep-shade);
     max-width: 25vw;
     margin-left: 4px;
     margin-top: 0;

@@ -1,9 +1,8 @@
 
 .heroImage {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./rent.jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos11.jpg"); 
-    /* Set a specific height */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos11.jpg"); 
+  
     height: 75vh;
   
     /* Position and center the image to scale nicely on all screens */
@@ -25,7 +24,7 @@
   } 
 
   .heroButton{
-    box-shadow: -5px 5px 0px 0px rgb(117, 172, 126);
+    box-shadow: -5px 5px 0px 0px var(--mid-shade);;
     transition: 0.2s ease-in;
     touch-action: manipulation;
     padding: 14px 20px 13px;
@@ -40,7 +39,7 @@ button{
 }
 
 .heroButton:hover{
-    box-shadow: 0px 3px 1px 1px rgb(117, 172, 126);
+    box-shadow: 0px 3px 1px 1px var(--mid-shade);;
 }
 
 .heroButton:active{

@@ -4,7 +4,7 @@ body {
 
 .nav-bar {
   overflow: hidden;
-  background-color: rgb(209, 255, 229);
+  background-color: var(--light-shade);
   position: static;
   align-items: center;
   z-index: 4;
@@ -62,18 +62,14 @@ body {
   margin-top: 4rem;
   width: 100%;
   padding: 8px 10px;
-  background-color: rgb(209, 255, 229);
+  background-color: var(--light-shade);
   bottom: 0px;
 }
-.footer h6{
- position: absolute;
- right: 10px;
-bottom: -60px;
-}
+
 
 #rentee{
   background-color: white;
-  box-shadow: -5px 5px 0px 0px rgb(45, 99, 54);
+  box-shadow: -5px 5px 0px 0px var(--deep-shade);;
   transition: 0.2s ease-in;
   touch-action: manipulation;
   padding: 14px 20px 13px;
@@ -85,7 +81,7 @@ bottom: -60px;
 }
 
 #rentee:hover{
-  box-shadow: 0px 5px 0px 0px rgb(45, 99, 54);
+  box-shadow: 0px 5px 0px 0px var(--deep-shade);;
 }
 
 #rentee:active{
