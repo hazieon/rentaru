@@ -1,4 +1,4 @@
-# Welcome to eCycle!
+# Welcome to Rentaru!
 
 Did you know the UK is one of the most wasteful countries?*
 
