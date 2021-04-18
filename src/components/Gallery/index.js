@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function TitlebarGridList({tileData, cols}) {
+export default function TitlebarGridList({tileData, cols, changeRentable}) {
   const classes = useStyles();
 
   return (
@@ -44,7 +44,10 @@ export default function TitlebarGridList({tileData, cols}) {
             <Link className={styles.link} 
              to="/checkout">
             <GridListTileBar
-              onClick={()=>console.log(tile.title)}
+              onClick={()=>{
+                console.log(tile.title);
+                changeRentable(tile.title,tile.img)
+                }}
               className={styles.gridTile}
               title={tile.title}
               subtitle={<><span>By {tile.author}</span><p> </p><span>{tile.distance} away</span></>}

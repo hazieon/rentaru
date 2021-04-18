@@ -16,7 +16,7 @@ const categories = [
   "Video Games"
 ]
 
-function Sell() { 
+function Sell({changeRentable}) { 
   return (
     <div className="sell">
         <h3 className={styles.categoryTitle}>Explore by category:</h3>
@@ -29,7 +29,7 @@ function Sell() {
     })}
     </ul>
     <div className={styles.galleryBox}>
-      <Gallery tileData={tileData} cols={5}/>
+      <Gallery tileData={tileData} changeRentable={changeRentable} cols={5}/>
       </div>
 
 

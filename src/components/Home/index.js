@@ -9,16 +9,16 @@ import {
 } from "react-router-dom";
 
 
-function Homepage() {
+function Homepage({changeRentable}) {
   return (
     <div className="Homepage">
-        <div class={styles.heroImage}>
-            <div class={styles.heroText}>
+        <div className={styles.heroImage}>
+            <div className={styles.heroText}>
              <h1>Extra-ordinary people</h1>
             <h2>renting ordinary things.</h2>
-             <button class={styles.heroButton}>  
+             <button className={styles.heroButton}>  
              <Link className={styles.link} 
-             to="/checkout">Explore Nearby</Link>
+             to="/sell">Explore Nearby</Link>
             </button>
              </div>
         </div> 
@@ -31,7 +31,7 @@ function Homepage() {
     buttonText={"More info"}
     />
 
-    <Gallery tileData={tileData} cols={4}/>
+    <Gallery tileData={tileData} changeRentable={changeRentable} cols={4}/>
    
    <h2 className={styles.explainTitle}>How it works</h2>
    <div className={styles.explainBox}>

@@ -6,14 +6,15 @@ import {
 } from "react-router-dom";
 
 
-function Checkout() {
+function Checkout({rentable}) {
+  console.log(rentable)
   return (
     <>
     <div  className={styles.imageBox}>
     
-    <img className={styles.productImage} src={image13} alt="your rental product"/>
+    <img className={styles.productImage} src={rentable.img} alt="your rental product"/>
     <div className={styles.productDataBox}>
-    <h3>Your product:</h3>
+    <h3>Your product: {rentable.item}</h3>
     <h4>Rental length: <span className={styles.spanText}>4 days</span></h4>
     <h4>Price per day: <span className={styles.spanText}>£2.50  </span> <s id={styles.discount}> £3.99</s></h4>
     <h4>KGs saved from landfill:<span className={styles.spanText}> 2kg</span></h4>

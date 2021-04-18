@@ -1,5 +1,5 @@
 import './App.css';
-import React from "react";
+import React, {useState} from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,8 +12,15 @@ import Checkout from "./components/Checkout"
 import logo from "./images/earth.png"
 import List from "./components/List"
 import Thankyou from "./components/Thankyou"
+import image13 from "./images/photos (13).jpg"
 
 export default function App() {
+  const [rentable, setRentable] = useState({item:"Waffle Pan", img: image13 })
+
+function changeRentable(item, image){
+setRentable({item:item, img: image});
+}
+
   return (
     <>
     <Router>
@@ -41,10 +48,10 @@ export default function App() {
        
         <Switch>
           <Route path="/sell">
-            <Sell />
+            <Sell changeRentable={changeRentable} />
           </Route>
           <Route path="/checkout">
-            <Checkout />
+            <Checkout rentable={rentable}/>
           </Route>
           <Route path="/list">
             <List />
@@ -53,7 +60,7 @@ export default function App() {
             <Thankyou />
           </Route>
           <Route path="/">
-            <Homepage />
+            <Homepage changeRentable={changeRentable} />
           </Route>
         </Switch>
       </div>
