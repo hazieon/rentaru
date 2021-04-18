@@ -1,6 +1,4 @@
-import styles from "./index.module.css"
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -8,8 +6,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-// import StarIcon from '@material-ui/icons/StarBorder';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
@@ -145,7 +141,7 @@ export default function Pricing() {
           Pricing
         </Typography>
         <Typography variant="h6" align="center" color="textSecondary" component="p">
-          Find local rentees more quickly with Premium and Pro listing options!
+          Find local rentees more quickly with Pro and Partner listing options on Rentaru!
         </Typography>
       </Container>
       {/* End hero unit */}

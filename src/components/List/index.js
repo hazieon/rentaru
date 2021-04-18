@@ -11,7 +11,7 @@ import Pricing from "../Pricing"
 function List() {
   return (
     <div className={styles.listContainer}>
-       <h2>List your Rentable™ item:</h2>
+       <h2>List your item on Rentaru:</h2>
     <div className={styles.panel}>
      <span className={styles.span}>Upload some photos:</span>
     <p> </p>
