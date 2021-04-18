@@ -1,5 +1,6 @@
 .productImage{
     max-width: 40vw;
+    max-height: 50vh;
     height: auto;
     position: relative;
     margin: auto;

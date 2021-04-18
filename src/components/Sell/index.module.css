@@ -40,14 +40,13 @@ transition: 0.2s ease;
 
 .filterSection{
     text-align: left;
-    position: relative;
+    position: static;
     padding-left: 10px;
 }
 
 select{
     text-align: left;
     position: relative;
-    /* top: 30vh; */
     left: 0;
     padding: 5px 0px;
     padding-left: 10px;

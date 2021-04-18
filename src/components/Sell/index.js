@@ -1,6 +1,6 @@
 import styles from "./index.module.css"
 import Gallery from "../Gallery"
-import {tileData} from "../../tileData"
+import {tileDataFull} from "../../tileDataFull"
 import Sliders from "../Slider"
 
 const categories = [
@@ -29,9 +29,8 @@ function Sell({changeRentable}) {
     })}
     </ul>
     <div className={styles.galleryBox}>
-      <Gallery tileData={tileData} changeRentable={changeRentable} cols={5}/>
+      <Gallery tileData={tileDataFull} changeRentable={changeRentable} cols={5}/>
       </div>
-
 
     <div className={styles.filterSection}>
     <h3 className={styles.filterTitle}>Filter:</h3>
@@ -49,39 +48,8 @@ function Sell({changeRentable}) {
 <Sliders title={"Price"} min={3} max={50} initial={10} step={5}/>
 
 <Sliders title={"Distance"} min={5} max={50} initial={10} step={5}/>
+  </div>
 
-
-{/* <p> </p>
-    <select>Price
-    <option value="Price" disabled>Price per day</option>
-    <option value="Price">Any</option>
-    <option value="Price">£15 or more</option>
-    <option value="Price">£10 or less</option>
-    <option value="Price">£5 or less</option>
-    <option value="Price">£3 or less</option>
-    </select>
-   <p></p>
-
-   <select>Distance
-    <option value="Distance" disabled>Distance per day</option>
-    <option value="Distance">Any</option>
-    <option value="Distance">Within 50km</option>
-    <option value="Distance">Within 25km</option>
-    <option value="Distance">Within 15km</option>
-    <option value="Distance">Within 5km</option>
-    </select>
-    */}
-
-
-
-
-
-    </div>
-
-
-
-
-     
     </div>
   );
 }

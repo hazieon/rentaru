@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import Slider from "@material-ui/core/Slider";
 
-function Sliders({title, min,max,initial, step}) {
+function Sliders({title, min, max, initial, step}) {
   const [value, setValue] = React.useState([20, 37]);
   const handleChange = (event, newValue) => {
     setValue(newValue);

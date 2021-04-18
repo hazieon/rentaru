@@ -14,13 +14,13 @@ function Homepage({changeRentable}) {
     <div className="Homepage">
         <div className={styles.heroImage}>
             <div className={styles.heroText}>
-             <h1>Extra-ordinary people</h1>
-            <h2>renting ordinary things.</h2>
-             <button className={styles.heroButton}>  
-             <Link className={styles.link} 
-             to="/sell">Explore Nearby</Link>
-            </button>
-             </div>
+               <h1>Extra-ordinary people</h1>
+               <h2>renting ordinary things.</h2>
+               <button className={styles.heroButton}>  
+                 <Link className={styles.link} 
+                     to="/sell">Explore Nearby</Link>
+              </button>
+            </div>
         </div> 
     
     <ImageWithText

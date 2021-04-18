@@ -1,0 +1,42 @@
+.span{
+    margin-bottom: 2rem;
+}
+
+.photoBox{
+    text-align: center;
+    place-content: center;
+    margin: auto;
+    padding: 20px 10px;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo{
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid rgb(45, 54, 45);
+    border-radius: 7px;
+    user-select: none;
+    cursor: pointer;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+.panel{
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 2px solid rgb(45, 54, 45);
+    max-width: 40vw;
+    padding: 10px 10px;
+    border-radius: 7px;
+    box-shadow: -5px 5px 0px 0px rgb(117, 172, 126);
+    transition: 0.4s ease;
+}
+
+.panel:hover{
+    box-shadow: -1px 5px 0px 0px rgb(117, 172, 126);
+}
