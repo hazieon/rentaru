@@ -18,7 +18,7 @@ function Homepage({changeRentable}) {
                <h2>renting ordinary things.</h2>
                <button className={styles.heroButton}>  
                  <Link className={styles.link} 
-                     to="/sell">Explore Rentables™</Link>
+                     to="/sell">Explore Rentaru</Link>
               </button>
             </div>
         </div> 
