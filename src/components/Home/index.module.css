@@ -38,6 +38,7 @@ button{
     font-family: "Montserrat", sans-serif;
     border:none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .heroButton:hover{

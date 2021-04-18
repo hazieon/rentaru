@@ -8,7 +8,7 @@ function About() {
    <div className={styles.imageBox}>
     <img   className={styles.dataImg} src={pythonData} alt="Scotland waste data 2005-2019. Household waste biggest contributor"/>
     <p>2005-2019, Scotland: 
-    Household waste is one of the largest landfill contributors [2]</p>
+    Household waste is one of the largest landfill contributors [1]</p>
        </div>
 
     <div className={styles.textBox}>
