@@ -5,12 +5,13 @@ import Sliders from "../Slider"
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
+import Pricing from "../Pricing"
 
 
 function List() {
   return (
     <div className={styles.listContainer}>
-       <h2>List your rentable item:</h2>
+       <h2>List your Rentable™ item:</h2>
     <div className={styles.panel}>
      <span className={styles.span}>Upload some photos:</span>
     <p> </p>
@@ -34,6 +35,9 @@ function List() {
     </div>
     </section>
     </div>
+
+  
+    
     <div className={styles.panel}>
     <span className={styles.span}>Set your price:</span>
     <Sliders title={"Price per day in British pounds"} min={1} max={100} initial={10} step={1}/>
@@ -144,10 +148,10 @@ function List() {
       </Grid>
     </React.Fragment>
     </div>
-    <button className={styles.panel}>Submit</button>
-    </div>
+ 
+    <Pricing/>
 
-    
+    </div>   
   );
 }
 

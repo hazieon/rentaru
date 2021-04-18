@@ -18,7 +18,7 @@ function Homepage({changeRentable}) {
                <h2>renting ordinary things.</h2>
                <button className={styles.heroButton}>  
                  <Link className={styles.link} 
-                     to="/sell">Explore Nearby</Link>
+                     to="/sell">Explore Rentables™</Link>
               </button>
             </div>
         </div> 
@@ -37,11 +37,11 @@ function Homepage({changeRentable}) {
    <div className={styles.explainBox}>
    <div>
    <img className={styles.explainImage} id={styles.explainImageOne}  src="https://c8.alamy.com/comp/2E2BNAM/what-do-you-think-about-this-happy-bearded-man-holding-steaming-iron-home-domestic-duties-mature-brutal-hipster-use-modern-technology-household-concept-guy-ironing-diligently-home-appliances-2E2BNAM.jpg" alt="man holding iron"></img>
-   <h4>1. Find and reserve useful items near you!</h4>
+   <h4>1. Find and reserve useful Rentables™ near you!</h4>
    </div>
    <div>
    <img className={styles.explainImage}  id={styles.explainImageTwo} src="https://c7.alamy.com/comp/KGN5WJ/blond-woman-with-hat-gardening-KGN5WJ.jpg" alt="gardening woman"></img>
-   <h4>2. Rent useful items from your neighbours!</h4>
+   <h4>2. Rent useful Rentables™ from your neighbours!</h4>
    </div>
    <div>
    <img  className={styles.explainImage} id={styles.explainImageThree} src={image3} alt="gardening man"></img>

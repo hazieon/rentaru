@@ -37,7 +37,7 @@ setRentable({item:item, img: image});
               <Link to="/checkout">🛒</Link>
             </li>
             <li className="pages" id="rentee">
-              <Link to="/sell">Rentables</Link>
+              <Link to="/sell">Rentables™</Link>
             </li>
             <li className="pages" id="rentee">
               <Link to="/list">Rent Out</Link>

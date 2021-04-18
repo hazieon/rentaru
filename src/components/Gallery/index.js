@@ -36,7 +36,7 @@ export default function TitlebarGridList({tileData, cols, changeRentable}) {
       <GridList cellHeight={180} cols={cols}  className={classes.gridList}>
         <GridListTile key="Subheader" style={{ height: 'auto', width: "60vw"}}>
         <div className={styles.headingBox}>
-           <h2 className={styles.heading}>Rent Locally</h2></div>
+           <h2 className={styles.heading}>Local Rentables™</h2></div>
         </GridListTile>
         {tileData.map((tile) => (
           <GridListTile key={tile.img}>

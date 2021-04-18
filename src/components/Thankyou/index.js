@@ -7,7 +7,7 @@ export default function Thankyou() {
     <div className={styles.thankyou}>
     <h1>Thank you for contributing to the circular economy! 🌎</h1>
    
-   <h3>Your collection code:</h3>
+   <h3>Your Rentables™ collection code:</h3>
    <div>
        <img className={styles.QR} src={imageQR} alt="rental QR code"/>
    </div>
