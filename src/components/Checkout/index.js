@@ -1,6 +1,6 @@
 import PaymentForm from "../Payment"
 import styles from "./index.module.css"
-import image13 from "../../images/photos (13).jpg"
+// import image13 from "../../images/photos (13).jpg"
 import {
   Link
 } from "react-router-dom";
