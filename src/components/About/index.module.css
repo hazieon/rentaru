@@ -1,0 +1,33 @@
+.about{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    text-align: left;
+    margin-left: 6rem;
+}
+
+.dataImg{
+    position: relative;
+    height: 70vh;
+    left: 10%;
+}
+
+.imageBox{
+    margin-left: 1rem;
+    display: flex;
+    height: fit-content;
+    max-width: min-content;
+    flex-direction: column;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    width:43%;
+    display: table-cell;
+    padding: 30px 10px;
+    line-height: 150%;
+}

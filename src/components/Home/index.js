@@ -29,6 +29,7 @@ function Homepage({changeRentable}) {
     head={"About us"}
     text={"We are a renting marketplace for everyday people. Neighbours in your local community come here to rent out and borrow items to save money and purchase less. Each time you borrow an item, you are helping the planet by consuming less."}
     buttonText={"More info"}
+    link="/about"
     />
     </div>
  

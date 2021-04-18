@@ -9,6 +9,7 @@ import {
 import Homepage from "./components/Home"
 import Sell from "./components/Sell"
 import Checkout from "./components/Checkout"
+import About from "./components/About"
 import logo from "./images/earth.png"
 import List from "./components/List"
 import Thankyou from "./components/Thankyou"
@@ -58,6 +59,9 @@ setRentable({item:item, img: image});
           </Route>
           <Route path="/thankyou">
             <Thankyou />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/">
             <Homepage changeRentable={changeRentable} />
