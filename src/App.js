@@ -69,7 +69,7 @@ setRentable({item:item, img: image});
         </Switch>
       </div>
     </Router>
-<footer className="footer"> </footer>
+{/* <footer className="footer"> </footer> */}
     </>
   );
 }
