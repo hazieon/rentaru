@@ -11,7 +11,6 @@ function Checkout({rentable}) {
   return (
     <>
     <div  className={styles.imageBox}>
-    
     <img className={styles.productImage} src={rentable.img} alt="your rental product"/>
     <div className={styles.productDataBox}>
     <h3>Your Rentable™: {rentable.item}</h3>
@@ -23,7 +22,7 @@ function Checkout({rentable}) {
     </div>
 
     <div className="checkout">
-      <h2>Start your Rentables™ Rental!</h2>
+      <h2>Start your 'Rentaru'!</h2>
       <PaymentForm/>
     </div>
     <button className={styles.submit}>  <Link className={styles.link} 
