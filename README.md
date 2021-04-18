@@ -2,6 +2,8 @@
 
 Did you know the UK is one of the most wasteful countries?*
 
+## Try Rentaru for FREE: https://rentaru.netlify.app/
+
 ## We are a renting marketplace for everybody.  
 Neighbours in your local community come here to rent out and borrow items to save money and purchase less.    
 Each time you borrow an item, you are helping the planet by consuming less.     
